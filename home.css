@@ -17,3 +17,8 @@ body{
      padding: 5px;
      background-color: rgb(235, 235, 235);
 }
+
+.tamanho-img{
+    width: 150px;
+    height: 103px;
+}
