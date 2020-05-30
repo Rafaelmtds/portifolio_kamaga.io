@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+.container-card{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fit, minmax(150px,150px) );
+    column-gap: 30px;
+    row-gap: 24px; 
+    height: max-content;
+}
+
+.container-card .card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+     padding: 5px;
+     background-color: rgb(235, 235, 235);
+}
