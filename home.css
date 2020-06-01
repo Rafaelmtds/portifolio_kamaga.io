@@ -1,6 +1,22 @@
 body{
     background-color: rgb(235, 235, 235);
 }
+h1{
+    text-align: center;
+}
+.texto-home{
+    font-family: Apple Chancery, cursive;
+}
+.container-home{
+    height: max-content;
+    display: grid;
+    height: 100VH;
+    /* background-image: url(./img/Kamaga/Kamaga.png );
+    background-repeat: no-repeat; */
+}
+.card-home{
+   
+}
 .container-card{
     margin-top: 20px;
     display: grid;
@@ -10,6 +26,18 @@ body{
     row-gap: 24px; 
     height: max-content;
 }
+.divisao-card{
+    display: grid;
+    grid-template-columns: 24px 100px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.divisao-card .logo{
+    width: 24px;
+    justify-content: start;
+}
+
 
 .container-card .card-body{
     flex: 1 1 auto;
