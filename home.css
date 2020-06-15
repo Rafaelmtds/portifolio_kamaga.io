@@ -5,7 +5,24 @@ h1{
     text-align: center;
 }
 .texto-home{
+ 
     font-family: Apple Chancery, cursive;
+}
+.containerHome{
+    display: grid;
+    grid-auto-columns: 50%;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.botaoHome{
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    gap: 10px;
+}
+.botaoHome a{
+    color: white;
 }
 .container-home{
     height: max-content;
@@ -13,9 +30,6 @@ h1{
     height: 100VH;
     /* background-image: url(./img/Kamaga/Kamaga.png );
     background-repeat: no-repeat; */
-}
-.card-home{
-   
 }
 .container-card{
     margin-top: 20px;
