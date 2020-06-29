@@ -1,3 +1,13 @@
+/* body{
+    background-color: #ffb9c6;
+    background: linear-gradient(#ffb9c6,#694ff6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    color: white !important;
+} */
+
 body{
     background-color: rgb(235, 235, 235);
 }
