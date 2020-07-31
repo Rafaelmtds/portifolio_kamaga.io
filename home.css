@@ -56,6 +56,9 @@ h1{
     gap: 10px;
     justify-content: center;
 }
+.card-cancelado{
+   display: none;
+}
 
 .divisao-card .logo{
     width: 24px;
