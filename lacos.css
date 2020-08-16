@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+h1{
+    text-align: center;
+}
+.texto-home{
+ 
+    font-family: Apple Chancery, cursive;
+}
+.containerHome{
+    display: grid;
+    grid-auto-columns: 50%;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
